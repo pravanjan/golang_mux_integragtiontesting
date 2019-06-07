@@ -1,0 +1,29 @@
+
+{"create":{
+    "name":"kunal",
+    "role":"developer",
+    "dateAdded":"2019-11-12T11:45:26.371Z"
+},
+"search":[{
+    "name":"kevin",
+    "role":"developer",
+    "dateAdded":"2017-11-12T11:45:26.371Z"
+},
+{"name":"michel",
+"role":"developer",
+"dateAdded":"2019-11-12T11:45:26.371Z"
+}
+],
+"get":[
+    {
+        "name":"kevin",
+        "role":"developer",
+        "dateAdded":"2017-11-12T11:45:26.371Z"
+    },
+    {"name":"michel",
+    "role":"developer",
+    "dateAdded":"2019-11-12T11:45:26.371Z"
+    }
+]
+
+}
