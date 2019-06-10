@@ -60,5 +60,12 @@ func TestSearchEntry(t *testing.T) {
 			http.StatusOK,
 		)
 	}
+	//un marshall the data
+
+	value := make(map[string]string)
+	json.Unmarshal([]byte(res.Body.String()), &value)
+	if value["role"] != "developer" {
+		t.Errorf("do not receive correct value")
+	}
 
 }
